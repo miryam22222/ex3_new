@@ -12,16 +12,18 @@ export default function Navbar() {
         <div className="row navbar-items">
           <div className="item navbar-logo">
             <div className="content">
-              <Link href="/">Australian Football</Link>
+              <Link href="/">Nobel-Prize Catalog</Link>
             </div>
           </div>
           <div className="item navbar-menu">
             <div className="content">
-              <ul>
+              <div className="item links">
+                <ul>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
               </ul>
+              </div>
             </div>
           </div>
         </div>
